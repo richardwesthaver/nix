@@ -1,0 +1,9 @@
+# {$DOMAIN}
+
+rwest.io
+root * /srv
+encode zstd gzip
+templates
+file_server browse {
+	index www/index.html
+}
